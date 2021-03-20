@@ -4,7 +4,7 @@ A idéia é criar uma aplicação usando os conceitos mais relevantes do front-e
 
 ## Recursos
 
-ReactJs,Javascript,typescript,css,Miragejs,axios,styled-components etc...
+ReactJs, Javascript, typescript, css, Miragejs, axios, styled-components etc...
 
 # Getting Started with Create React App
 
