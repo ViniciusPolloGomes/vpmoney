@@ -1,4 +1,4 @@
-#Aplicação Controle Financeiro Pessoal.
+# Aplicação Controle Financeiro Pessoal.
 
 A idéia é criar uma aplicação usando os conceitos mais relevantes do front-end e colocar em pratica adequadamente.
 
