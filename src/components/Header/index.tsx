@@ -1,13 +1,18 @@
 
+
 import logoImg from '../../assets/logo.svg';
 import { Container , Content } from './style';
 
-export function Header(){
+interface HeaderPopos{
+    onOpenNewTransactionModal: ()=>void;
+}
+export function Header( {onOpenNewTransactionModal} : HeaderPopos ){
+    
     return(
         <Container>
             <Content>
                 <img src={logoImg} alt="Vp money"/>
-                <button type="button">Nova transação</button>
+                <button type="button" onClick={onOpenNewTransactionModal}>Nova transação</button>
             </Content>
         </Container>
     );
