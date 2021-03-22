@@ -1,6 +1,6 @@
 
 
-import logoImg from '../../assets/logo.svg';
+import logomarc from '../../assets/logomarc.svg';
 import { Container , Content } from './style';
 
 interface HeaderPopos{
@@ -11,8 +11,12 @@ export function Header( {onOpenNewTransactionModal} : HeaderPopos ){
     return(
         <Container>
             <Content>
-                <img src={logoImg} alt="Vp money"/>
-                <button type="button" onClick={onOpenNewTransactionModal}>Nova transação</button>
+                <div>
+                    <img src={logomarc} alt="Vp money"></img>
+                    <strong>Vp Money</strong>
+                </div>
+                    <button type="button" onClick={onOpenNewTransactionModal}>Nova transação</button>
+                
             </Content>
         </Container>
     );

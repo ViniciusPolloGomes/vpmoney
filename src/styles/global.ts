@@ -52,12 +52,15 @@ export const GlobalStyle =  createGlobalStyle`
         --border-input-modal: #333444;
         --background-input-modal:#121519;
         --colorFontButton:#ffffff;
+        --color-footer-background: #1c212b;
+        --background-footer-input:#121519;
     }
 
     *{
         margin: 0 ;
         padding: 0;
         box-sizing: border-box;
+        outline:unset;
     }
 
     //font-size: 16px Desktop  

@@ -13,7 +13,23 @@ export const Content = styled.div`
 
     display: flex;
     align-items:center;
-    justify-content:space-between;
+    justify-content: space-between;
+    
+    div{
+        display:flex;
+        justify-content:center;
+        flex-direction:row
+    }
+    div > strong{
+        margin:0 1rem;
+        font-size: 1.6rem;
+        color: var(--text-title);
+        
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        
+    }
     
     button{
         font-size: 1rem;
