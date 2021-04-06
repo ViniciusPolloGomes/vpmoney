@@ -1,9 +1,8 @@
-# Aplicação Controle Financeiro Pessoal.
+# Personal Financial Control application.
 
-A idéia é criar uma aplicação usando os conceitos mais relevantes do front-end e colocar em pratica adequadamente.
+The idea is to create an application using the most relevant concepts from the front end and put it into common practice.
 
-## Recursos
-
+## Resources
 ReactJs, Javascript, typescript, css, Miragejs, axios, styled-components etc...
 
 # Getting Started with Create React App
